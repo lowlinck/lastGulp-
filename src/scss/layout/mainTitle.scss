@@ -1,0 +1,37 @@
+.main {
+
+    // .main_title
+    &_title {
+        position: absolute;
+        width: 817px;
+        height: 210px;
+        left: 312px;
+        top: 221px;
+        font-family: $mainFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 86px;
+        line-height: 105px;
+        text-align: center;
+    }
+}
+
+.firstPartTitle {}
+
+.SecondPartTitle {
+    display: block;
+}
+
+.TherdPartTitle {
+    color: $mainColor;
+}
+
+.forthPartTitle {
+    display: block;
+    width: 272px;
+    height: 11px;
+    margin-left:calc(50% - 272px/2 + 150px); ;
+    
+    
+
+}

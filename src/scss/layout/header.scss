@@ -1,16 +1,205 @@
 // =====================================================================================================================
+
 .header {
-  width: 100%;
-  &.sticky {
-    // ..стили для липкого хедера
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.header_container {
+  
+  width: rem(1455);
+  height: rem(734);
+  align-items: center;
+  overflow: hidden;
+ 
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: $mainColor;
+  
+ 
+  // .circle__item1
+
+  &__item1 {
+    position: absolute;
+    left: rem(570);
+    top: rem(-83);
+    margin: 0 auto;
+    width: rem(300);
+    height: rem(300);
+    border: 1px solid $mainColor;
+    border-radius: 50%;
+    box-sizing: border-box;
   }
-  // .header__container
-  &__container {
-    height: rem($headerHeight);
-    display: flex;
-    align-items: center;
+
+  // .circle__item2
+
+  &__item2 {
+    position: absolute;
+    left: rem(470);
+    top: rem(-183);
+    opacity: 0.8;
+    margin: 0 auto;
+    width: rem(500);
+    height: rem(500);
+    border: 1px solid $mainColor;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  // .circle__item3
+
+  &__item3 {
+    position: absolute;
+    left: rem(370);
+    top: rem(-283);
+    opacity: 0.6;
+    margin: 0 auto;
+    width: rem(700);
+    height: rem(700);
+    border: 1px solid $mainColor;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  // .circle__item4
+
+  &__item4 {
+    position: absolute;
+    left: rem(270);
+    top: rem(-383);
+    opacity: 0.4;
+    margin: 0 auto;
+    width: rem(900);
+    height: rem(900);
+    border: 1px solid $mainColor;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  // .circle__item5
+
+  &__item5 {
+    position: absolute;
+    left: rem(170);
+    top: rem(-483);
+    margin: 0 auto;
+    opacity: 0.2;
+    width: rem(1100);
+    height: rem(1100);
+    border: 1px solid $mainColor;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  .circle {
+    // .circle__image
+
+    &__image {
+      // .circle__
+     
+      &_1 {
+        position: absolute;
+        width: rem(125);
+        height: rem(125);
+        left: rem(211);
+        top: rem(82);
+        background: url('/images/Ellipse/Ellipse_77.png');
+      }
+
+      // .circle__image_2
+
+      &_2 {
+        position: absolute;
+        width: rem(222);
+        height: rem(222);
+        left: rem(1130);
+        top: rem(63);
+        border-radius: 999px;
+        background: url('/images/Ellipse/Ellipse 78.png');
+      }
+
+      // .circle__image_3
+
+      &_3 {
+       
+        position: absolute;
+        width: rem(222);
+        height: rem(222);
+        left: rem(-59);
+        top: rem(462);
+        border-radius: 100px;
+        background: url('/images/Ellipse/Ellipse 79.png');
+      }
+
+      // .circle__image_4
+
+      &_4 {
+        position: absolute;
+        width: rem(184);
+        height: rem(184);
+        left: rem(1088);
+        top: rem(339);
+        border-radius: 999px;
+        background: url('/images/Ellipse/Ellipse 80.png');
+      }
+
+      // .circle__image_5
+
+      &_5 {
+        position: absolute;
+        width: rem(222);
+        height: rem(222);
+        left: rem(1283);
+        top: rem(470);
+        border-radius: 1000px;
+
+        background: url('/images/Ellipse/Ellipse 81.png');
+      }
+
+      // .circle__image_6
+
+      &_6 {
+        position: absolute;
+        width: rem(222);
+        height: rem(222);
+        left: rem(-35);
+        top: rem(174);
+        background: url('/images/Ellipse/Ellipse 82.png');
+      }
+
+      // .circle__image_7
+
+      &_7 {
+        position: absolute;
+        width: rem(136);
+        height: rem(136);
+        left: rem(192);
+        top: rem(367);
+        background: url('/images/Ellipse/Ellipse 83.png');
+      }
+
+      // .circle__image_8
+
+      &_8 {
+        position: absolute;
+        width: rem(136);
+        height: rem(136);
+        left: 1372px;
+        top: rem(249);
+        border-radius: 999px;
+        background: url('/images/Ellipse/Ellipse 84.png');
+      }
+    }
   }
 }
+
 // =====================================================================================================================
 
 // Burger

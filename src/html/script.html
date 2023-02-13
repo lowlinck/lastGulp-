@@ -1,1 +1,33 @@
+<script>
+    $('.slick').slick({
+      infinite: true,        
+      arrows: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      prevArrow: '',
+      responsive: [
+      {
+          breakpoint: 2500,
+            settings:{
+              slidesToShow: 4,
+              slidesToScroll: 1,
+            }
+        },
+      {
+          breakpoint: 1440,
+            settings:{
+              slidesToShow: 4,
+              slidesToScroll: 1,
+            }
+        },
+      {
+          breakpoint: 768,
+            settings:{
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+        }, 
+        ]
+    });
+</script>
 <script src="js/app.min.js"></script>

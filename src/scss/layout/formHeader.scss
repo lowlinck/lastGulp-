@@ -1,0 +1,92 @@
+.formTitle {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+    align-items: center;
+    width: rem(1180);
+    height: rem(100);
+    left: rem(130);
+    top: 510px;
+    background: #FFFFFF;
+    border-radius: 900px;
+    border: 1px solid rgba(35, 28, 26, 0.5);
+    box-shadow: $formBoxShadow;
+
+}
+
+.form {
+
+
+    // .form_header1
+
+    &_header1 {
+        text-align: right;
+        margin-right: 15px;
+        font-family: $fontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #231C1A;
+        opacity: 0.5;
+
+    }
+
+    // .form_header2
+
+    &_header2 {
+        text-align: right;
+        height: 52px;
+        border-left: 1px solid #231C1A;
+        border-right: 1px solid #231C1A;
+        font-family: $fontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #231C1A;
+        opacity: 0.5;
+
+
+
+    }
+
+    // .form_header3
+
+    &_header3 {
+
+        text-align: right;
+        height: 52px;
+        border-right: 1px solid #231C1A;
+        font-family: $fontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #231C1A;
+        opacity: 0.5;
+
+
+    }
+
+    // .form_header4
+
+    &_header4 {
+        text-align: right;
+        font-family: $fontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #231C1A;
+        opacity: 0.5;
+
+
+    }
+
+}
+
+.formButton {
+    text-align: right;
+}

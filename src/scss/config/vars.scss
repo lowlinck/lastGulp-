@@ -1,10 +1,10 @@
 $maxWidth: 1920; // максимальная ширина страницы
-$minWidth: 320; // минимальная ширина телефона
-$maxWidthContainer: 1200; // ширина контейнера с учетом padding слева и справа
-$containerWidth: 1160; // ширина контейнера из макета
+$minWidth: 375; // минимальная ширина телефона
+$maxWidthContainer: 1470; // ширина контейнера с учетом padding слева и справа
+$containerWidth: 1440; // ширина контейнера из макета
 
 $mainOffset: 15; // отступы безопасности для контейнера
-$mainFont: ''; // !указать здесь основное семейство шрифта
+$mainFont: 'Vendor'; // !указать здесь основное семейство шрифта
 $mainWeight: 400; // !указать здесь основное начертание шрифта
 
 $headerHeight: 100;
@@ -12,10 +12,12 @@ $footerHeight: 100;
 
 $mainRadius: rem(10);
 
+$headerColor:#F5F5F5;
 $whiteColor: #fff;
-$blackColor: #131313;
-$grayColor: #6f6f6f;
+$blackColor: #231C1A;
+$grayColor: #F4F3EE;
 $redColor: #ff4040;
+$mainColor:#ECB02F;
 
 $firstAccentColor: $blackColor;
 $secondAccentColor: $redColor;
@@ -37,3 +39,14 @@ $lightBoxShadow:  0 0 2px 0 rgba(#000, 10%),
 $hoverBoxShadow:  0 0 5px 0 rgba(#000, 10%), 
                   0 0 10px 0 rgba(#000, 10%), 
                   0 0 15px 0 rgba(#000, 10%);
+$menuBoxShadow:   0 5px 20px rgba(0, 0, 0, 0.1);
+$formBoxShadow:  0px 123px 49px rgba(0, 0, 0, 0.01),
+                 0px 69px 42px rgba(0, 0, 0, 0.05),
+                 0px 31px 31px rgba(0, 0, 0, 0.09),
+                 0px 8px 17px rgba(0, 0, 0, 0.1),
+                 0px 0px 0px rgba(0, 0, 0, 0.1); 
+$fireBoxShadow:  0px 30px 12px rgba(45, 42, 29, 0.01),
+                 0px 17px 10px rgba(45, 42, 29, 0.05),
+                 0px 7px 7px rgba(45, 42, 29, 0.09),
+                 0px 2px 4px rgba(45, 42, 29, 0.1),
+                 0px 0px 0px rgba(45, 42, 29, 0.1);

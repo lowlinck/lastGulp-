@@ -1,0 +1,83 @@
+.nav {
+    position: absolute;
+    top: rem(14);
+    left: rem(130);
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+    justify-items: center;    
+    width: rem(1180);
+    height: rem(70);
+    border-radius: 71px;
+    box-shadow: $menuBoxShadow;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.link {
+
+
+    // .link_home
+
+    &_home {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family: $fontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+
+    // .link_blog
+
+    &_blog {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family: $fontFamily;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    // .link_restrance
+
+    &_restrance {
+        margin-right: rem(20);
+        margin-top: auto;
+        margin-bottom: auto;
+        font-family: $fontFamily;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+.block_icon{
+
+}
+.link_icon {
+   
+}
+
+.link_login {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.link_singup{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.link_search {
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: rem(100);
+    
+}
