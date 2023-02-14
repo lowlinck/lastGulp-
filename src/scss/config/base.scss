@@ -63,10 +63,13 @@ body {
 }
 // Оболочка ===========================================================================================================
 .wrapper {
+  
   display: flex;
   flex-direction: column;
-  min-height: 100%;
-  overflow: hidden; // clip - если используется в проекте position: sticky
+ 
+ 
+ 
+   // clip - если используется в проекте position: sticky
 }
 .page {
   position: relative;

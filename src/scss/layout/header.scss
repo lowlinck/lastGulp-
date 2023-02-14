@@ -1,20 +1,15 @@
 // =====================================================================================================================
 
 .header {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+ max-width: 100%;
+ 
 
-  
 }
 
 .header_container {
-  
-  width: rem(1455);
-  height: rem(734);
-  align-items: center;
-  overflow: hidden;
- 
+  max-width: 77.3%;
+  margin: 0 auto;
+
 }
 
 .circle {
@@ -22,8 +17,8 @@
   align-items: center;
   position: relative;
   color: $mainColor;
-  
- 
+
+
   // .circle__item1
 
   &__item1 {
@@ -103,7 +98,7 @@
 
     &__image {
       // .circle__
-     
+
       &_1 {
         position: absolute;
         width: rem(125);
@@ -128,7 +123,7 @@
       // .circle__image_3
 
       &_3 {
-       
+
         position: absolute;
         width: rem(222);
         height: rem(222);

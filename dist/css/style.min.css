@@ -149,96 +149,13 @@ sup {
   background-color: #231C1A;
 }
 
-body.lock {
-  overflow: hidden;
-  touch-action: none;
-}
-
-/*
-* (i) Стили будут применяться ко 
-* всем классам содержащим *__container
-* Например header__container, main__container и т.д.
-*/
-[class*=__container] {
-  max-width: 91.875rem;
-  margin: 0 auto;
-  padding: 0 0.9375rem;
-}
-
-[class*=-ibg] {
-  position: relative;
-}
-[class*=-ibg] img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-[class*=-ibg_contain] img {
-  object-fit: contain;
-}
-
-[class*=_overlay-bg] {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 280ms ease-in-out 0ms;
-  z-index: 2000;
-  padding: 3.75rem 0.9375rem;
-  overflow-y: auto;
-}
-@media (max-width: 768.98px) {
-  [class*=_overlay-bg]::-webkit-scrollbar {
-    display: none;
-  }
-}
-[class*=_overlay-bg]._is-open {
-  opacity: 1;
-  visibility: visible;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  overflow: hidden;
-}
-
-.page {
-  position: relative;
-  flex: 1 1 auto;
-}
-.page [data-observ] {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 0.125rem;
-  background: transparent;
-  pointer-events: none;
-}
-.page_start {
-  padding-top: 6.25rem;
-}
-
 .header {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;
 }
 
 .header_container {
-  width: 90.9375rem;
-  height: 45.875rem;
-  align-items: center;
-  overflow: hidden;
+  max-width: 77.3%;
+  margin: 0 auto;
 }
 
 .circle {
@@ -529,6 +446,20 @@ body.lock {
   box-shadow: 0px 123px 49px rgba(0, 0, 0, 0.01), 0px 69px 42px rgba(0, 0, 0, 0.05), 0px 31px 31px rgba(0, 0, 0, 0.09), 0px 8px 17px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 1440px) {
+  .formTitle {
+    width: 100%;
+    box-shadow: none;
+    opacity: 0.8;
+    height: 26.25rem;
+    border: none;
+    border-radius: 0;
+    left: 50%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+    justify-items: center;
+  }
+}
 .form_header1 {
   text-align: right;
   margin-right: 15px;
@@ -574,6 +505,24 @@ body.lock {
   line-height: 17px;
   color: #231C1A;
   opacity: 0.5;
+}
+@media (max-width: 1440px) {
+  .form_header1, .form_header2, .form_header3, .form_header4 {
+    width: 466px;
+    height: 70px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(35, 28, 26, 0.5);
+    box-shadow: 0px 123px 49px rgba(0, 0, 0, 0.01), 0px 69px 42px rgba(0, 0, 0, 0.05), 0px 31px 31px rgba(0, 0, 0, 0.09), 0px 8px 17px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 70px;
+  }
+}
+
+.formButton {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #ECB02F 0%, #F85353 100%);
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
 }
 
 .formButton {
