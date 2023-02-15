@@ -1,20 +1,29 @@
 // =====================================================================================================================
 
 .header {
- max-width: 100%;
- 
+  max-width: $maxWidth;
+  margin: 0 auto;
+  height: 100%;
+
 
 }
 
 .header_container {
-  max-width: 77.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;overflow: hidden;
+
+
+  max-width: $maxWidthContainer;
   margin: 0 auto;
 
 }
 
 .circle {
-  display: flex;
-  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+
   position: relative;
   color: $mainColor;
 
@@ -23,7 +32,8 @@
 
   &__item1 {
     position: absolute;
-    left: rem(570);
+    left: 50%;
+    transform: translateX(-50%);
     top: rem(-83);
     margin: 0 auto;
     width: rem(300);
@@ -37,7 +47,8 @@
 
   &__item2 {
     position: absolute;
-    left: rem(470);
+    left: 50%;
+    transform: translateX(-50%);
     top: rem(-183);
     opacity: 0.8;
     margin: 0 auto;
@@ -52,7 +63,8 @@
 
   &__item3 {
     position: absolute;
-    left: rem(370);
+    left: 50%;
+    transform: translateX(-50%);
     top: rem(-283);
     opacity: 0.6;
     margin: 0 auto;
@@ -67,7 +79,8 @@
 
   &__item4 {
     position: absolute;
-    left: rem(270);
+    left: 50%;
+    transform: translateX(-50%);
     top: rem(-383);
     opacity: 0.4;
     margin: 0 auto;
@@ -82,7 +95,8 @@
 
   &__item5 {
     position: absolute;
-    left: rem(170);
+    left: 50%;
+    transform: translateX(-50%);
     top: rem(-483);
     margin: 0 auto;
     opacity: 0.2;
@@ -97,7 +111,13 @@
     // .circle__image
 
     &__image {
-      // .circle__
+      // .circlea
+      position: relative;
+      width: 100%;
+      height: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+
 
       &_1 {
         position: absolute;
@@ -114,7 +134,7 @@
         position: absolute;
         width: rem(222);
         height: rem(222);
-        left: rem(1130);
+        left: rem(1178);
         top: rem(63);
         border-radius: 999px;
         background: url('/images/Ellipse/Ellipse 78.png');
@@ -139,7 +159,7 @@
         position: absolute;
         width: rem(184);
         height: rem(184);
-        left: rem(1088);
+        left: rem(1152);
         top: rem(339);
         border-radius: 999px;
         background: url('/images/Ellipse/Ellipse 80.png');
@@ -151,7 +171,7 @@
         position: absolute;
         width: rem(222);
         height: rem(222);
-        left: rem(1283);
+        left: rem(1363);
         top: rem(470);
         border-radius: 1000px;
 
@@ -186,7 +206,7 @@
         position: absolute;
         width: rem(136);
         height: rem(136);
-        left: 1372px;
+        left: rem(1447);
         top: rem(249);
         border-radius: 999px;
         background: url('/images/Ellipse/Ellipse 84.png');

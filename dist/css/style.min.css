@@ -150,23 +150,31 @@ sup {
 }
 
 .header {
-  max-width: 100%;
+  max-width: 1550px;
+  margin: 0 auto;
+  height: 100%;
 }
 
 .header_container {
-  max-width: 77.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 1440;
   margin: 0 auto;
 }
 
 .circle {
-  display: flex;
-  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
   position: relative;
   color: #ECB02F;
 }
 .circle__item1 {
   position: absolute;
-  left: 35.625rem;
+  left: 50%;
+  transform: translateX(-50%);
   top: -5.1875rem;
   margin: 0 auto;
   width: 18.75rem;
@@ -177,7 +185,8 @@ sup {
 }
 .circle__item2 {
   position: absolute;
-  left: 29.375rem;
+  left: 50%;
+  transform: translateX(-50%);
   top: -11.4375rem;
   opacity: 0.8;
   margin: 0 auto;
@@ -189,7 +198,8 @@ sup {
 }
 .circle__item3 {
   position: absolute;
-  left: 23.125rem;
+  left: 50%;
+  transform: translateX(-50%);
   top: -17.6875rem;
   opacity: 0.6;
   margin: 0 auto;
@@ -201,7 +211,8 @@ sup {
 }
 .circle__item4 {
   position: absolute;
-  left: 16.875rem;
+  left: 50%;
+  transform: translateX(-50%);
   top: -23.9375rem;
   opacity: 0.4;
   margin: 0 auto;
@@ -213,7 +224,8 @@ sup {
 }
 .circle__item5 {
   position: absolute;
-  left: 10.625rem;
+  left: 50%;
+  transform: translateX(-50%);
   top: -30.1875rem;
   margin: 0 auto;
   opacity: 0.2;
@@ -222,6 +234,13 @@ sup {
   border: 1px solid #ECB02F;
   border-radius: 50%;
   box-sizing: border-box;
+}
+.circle .circle__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .circle .circle__image_1 {
   position: absolute;
@@ -235,7 +254,7 @@ sup {
   position: absolute;
   width: 13.875rem;
   height: 13.875rem;
-  left: 70.625rem;
+  left: 73.625rem;
   top: 3.9375rem;
   border-radius: 999px;
   background: url("/images/Ellipse/Ellipse 78.png");
@@ -253,7 +272,7 @@ sup {
   position: absolute;
   width: 11.5rem;
   height: 11.5rem;
-  left: 68rem;
+  left: 72rem;
   top: 21.1875rem;
   border-radius: 999px;
   background: url("/images/Ellipse/Ellipse 80.png");
@@ -262,7 +281,7 @@ sup {
   position: absolute;
   width: 13.875rem;
   height: 13.875rem;
-  left: 80.1875rem;
+  left: 85.1875rem;
   top: 29.375rem;
   border-radius: 1000px;
   background: url("/images/Ellipse/Ellipse 81.png");
@@ -287,7 +306,7 @@ sup {
   position: absolute;
   width: 8.5rem;
   height: 8.5rem;
-  left: 1372px;
+  left: 90.4375rem;
   top: 15.5625rem;
   border-radius: 999px;
   background: url("/images/Ellipse/Ellipse 84.png");
@@ -448,13 +467,12 @@ sup {
 
 @media (max-width: 1440px) {
   .formTitle {
-    width: 100%;
     box-shadow: none;
     opacity: 0.8;
     height: 26.25rem;
     border: none;
     border-radius: 0;
-    left: 50%;
+    margin: 0 auto;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     grid-template-rows: repeat(5, minmax(0, 1fr));
     justify-items: center;
