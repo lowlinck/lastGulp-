@@ -1,13 +1,14 @@
 .nav {
     position: absolute;
     top: rem(14);
-    left: rem(130);
+    left: 50%;
+    transform: translateX(-50%);
     display: grid;
     align-items: center;
     grid-template-columns: repeat(7, minmax(0, 1fr));
     grid-template-rows: repeat(1, minmax(0, 1fr));
     justify-items: center;    
-    width: rem(1180);
+    width: prc(1180, 1550);
     height: rem(70);
     border-radius: 71px;
     box-shadow: $menuBoxShadow;

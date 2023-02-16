@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Vibur:regular&display=swap);
 @font-face {
   font-family: slick;
   font-display: swap;
@@ -235,6 +236,28 @@ sup {
   border-radius: 50%;
   box-sizing: border-box;
 }
+@media (max-width: 1440px) {
+  .circle__item1 {
+    width: 14.403125rem;
+    height: 14.403125rem;
+  }
+  .circle__item2 {
+    width: 24.005625rem;
+    height: 24.005625rem;
+  }
+  .circle__item3 {
+    width: 33.608125rem;
+    height: 33.608125rem;
+  }
+  .circle__item4 {
+    width: 43.21rem;
+    height: 43.21rem;
+  }
+  .circle__item5 {
+    width: 52.8125rem;
+    height: 52.8125rem;
+  }
+}
 .circle .circle__image {
   position: relative;
   width: 100%;
@@ -246,7 +269,7 @@ sup {
   position: absolute;
   width: 7.8125rem;
   height: 7.8125rem;
-  left: 13.1875rem;
+  left: 13.6129032258%;
   top: 5.125rem;
   background: url("/images/Ellipse/Ellipse_77.png");
 }
@@ -254,7 +277,7 @@ sup {
   position: absolute;
   width: 13.875rem;
   height: 13.875rem;
-  left: 73.625rem;
+  left: 76%;
   top: 3.9375rem;
   border-radius: 999px;
   background: url("/images/Ellipse/Ellipse 78.png");
@@ -263,7 +286,7 @@ sup {
   position: absolute;
   width: 13.875rem;
   height: 13.875rem;
-  left: -3.6875rem;
+  left: -3.8064516129%;
   top: 28.875rem;
   border-radius: 100px;
   background: url("/images/Ellipse/Ellipse 79.png");
@@ -272,7 +295,7 @@ sup {
   position: absolute;
   width: 11.5rem;
   height: 11.5rem;
-  left: 72rem;
+  left: 74.3225806452%;
   top: 21.1875rem;
   border-radius: 999px;
   background: url("/images/Ellipse/Ellipse 80.png");
@@ -281,7 +304,7 @@ sup {
   position: absolute;
   width: 13.875rem;
   height: 13.875rem;
-  left: 85.1875rem;
+  left: 87.935483871%;
   top: 29.375rem;
   border-radius: 1000px;
   background: url("/images/Ellipse/Ellipse 81.png");
@@ -290,7 +313,7 @@ sup {
   position: absolute;
   width: 13.875rem;
   height: 13.875rem;
-  left: -2.1875rem;
+  left: -2.2580645161%;
   top: 10.875rem;
   background: url("/images/Ellipse/Ellipse 82.png");
 }
@@ -298,7 +321,7 @@ sup {
   position: absolute;
   width: 8.5rem;
   height: 8.5rem;
-  left: 12rem;
+  left: 12.3870967742%;
   top: 22.9375rem;
   background: url("/images/Ellipse/Ellipse 83.png");
 }
@@ -306,7 +329,7 @@ sup {
   position: absolute;
   width: 8.5rem;
   height: 8.5rem;
-  left: 90.4375rem;
+  left: 93.3548387097%;
   top: 15.5625rem;
   border-radius: 999px;
   background: url("/images/Ellipse/Ellipse 84.png");
@@ -390,13 +413,14 @@ sup {
 .nav {
   position: absolute;
   top: 0.875rem;
-  left: 8.125rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: grid;
   align-items: center;
   grid-template-columns: repeat(7, minmax(0, 1fr));
   grid-template-rows: repeat(1, minmax(0, 1fr));
   justify-items: center;
-  width: 73.75rem;
+  width: 76.1290322581%;
   height: 4.375rem;
   border-radius: 71px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
