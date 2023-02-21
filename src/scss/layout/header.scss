@@ -13,6 +13,7 @@ html, body{
 }
 
 .header_container {
+  padding: 0 15px;
   height: 100%;
   display: flex;
   flex-direction: column;overflow: hidden;
@@ -184,23 +185,24 @@ html, body{
 
       &_1 {
         position: absolute;
-        width: prc(125, 1550);
-        height: prc(125, 1550);
+        width: rem(125);
+        height: rem(125);
         left: rem(211);
         top: rem(82);
-        background: url('/images/Ellipse/Ellipse_77.png');
+        border-radius:999px;
+        background: url('/images/xl/Ellipse 77.png');
       }
 
       // .circle__image_2
 
       &_2 {
         position: absolute;
-        width: prc(222,1550);
-        height:prc(222,600);
-        left: rem(1178);
+        width: rem(222);
+        height:rem(222);
+        left: rem(1130);
         top: rem(63);
         border-radius: 999px;
-        background: url('/images/Ellipse/Ellipse 78.png');
+        background: url('/images/xl/Ellipse 78.png');
       }
 
       // .circle__image_3
@@ -213,7 +215,7 @@ html, body{
         left: rem(-59);
         top: rem(462);
         border-radius: 100px;
-        background: url('/images/Ellipse/Ellipse 79.png');
+        background: url('/images/xl/Ellipse 79.png');
       }
 
       // .circle__image_4
@@ -222,10 +224,10 @@ html, body{
         position: absolute;
         width: rem(184);
         height: rem(184);
-        left: rem(1152);
+        left: rem(1088);
         top: rem(339);
         border-radius: 999px;
-        background: url('/images/Ellipse/Ellipse 80.png');
+        background: url('/images/xl/Ellipse 80.png');
       }
 
       // .circle__image_5
@@ -234,11 +236,11 @@ html, body{
         position: absolute;
         width: rem(222);
         height: rem(222);
-        left: rem(1363);
+        left: rem(1283);
         top: rem(470);
         border-radius: 1000px;
 
-        background: url('/images/Ellipse/Ellipse 81.png');
+        background: url('/images/xl/Ellipse 81.png');
       }
 
       // .circle__image_6
@@ -249,9 +251,8 @@ html, body{
         height: rem(222);
         left: rem(-35);
         top: rem(174);
-        border-radius: 1000px;
-
-        background: url('/images/Ellipse/Ellipse 82.webp');
+        border-radius: 999px;
+        background: url('/images/xl/Ellipse 82.png');
       }
 
       // .circle__image_7
@@ -262,7 +263,8 @@ html, body{
         height: rem(136);
         left: rem(192);
         top: rem(367);
-        background: url('/images/Ellipse/Ellipse 83.png');
+        border-radius: 999px;
+        background: url('/images/xl/Ellipse 83.png');
       }
 
       // .circle__image_8
@@ -271,48 +273,207 @@ html, body{
         position: absolute;
         width: rem(136);
         height: rem(136);
-        left: rem(1447);
+        left: rem(1372);
         top: rem(249);
         border-radius: 999px;
-        background: url('/images/Ellipse/Ellipse 84.png');
+        background: url('/images/xl/Ellipse 84.png');
       }
        
-     @media (max-width:768px){
+     @media (max-width:1440px){
       
       &_1 {
-        left: prc(103, 768);
-        top: rem(41);
+        
         width: rem(72);
         height: rem(72);
-      } 
-      &_2 {
-        width: rem(115);
-        height: rem(115);
+        left: rem(103);
+        top: rem(41);
+        border-radius:999px;
+        background: url('/images/md/Ellipse 77.png');
       }
+
+      // .circle__image_2
+
+      &_2 {
+        
+        width: rem(115);
+        height:rem(115);
+        left: rem(632);
+        top: rem(94);
+        border-radius: 999px;
+        background: url('/images/md/Ellipse 78.png');
+      }
+
+      // .circle__image_3
+
       &_3 {
+
+        
         width: rem(128);
         height: rem(128);
+        left: rem(-52);
+        top: rem(259);
+        border-radius: 100px;
+        background: url('/images/md/Ellipse 79.png');
       }
+
+      // .circle__image_4
+
       &_4 {
+        
         width: rem(113);
         height: rem(113);
+        left: rem(577);
+        top: rem(243);
+        border-radius: 999px;
+        background: url('/images/md/Ellipse 80.png');
       }
+
+      // .circle__image_5
+
       &_5 {
+        
         width: rem(136);
         height: rem(136);
+        left: rem(666);
+        top: rem(343);
+        border-radius: 1000px;
+
+        background: url('/images/md/Ellipse 81.png');
       }
+
+      // .circle__image_6
+
       &_6 {
+        
         width: rem(127);
         height: rem(127);
+        left: rem(-38);
+        top: rem(94);
         border-radius: 999px;
+        background: url('/images/md/Ellipse 82.png');
       }
+
+      // .circle__image_7
+
       &_7 {
+        
         width: rem(78);
         height: rem(78);
+        left: rem(92);
+        top: rem(205);
+        border-radius: 999px;
+        background: url('/images/md/Ellipse 83.png');
       }
+
+      // .circle__image_8
+
       &_8 {
+        
         width: rem(84);
         height: rem(84);
+        left: rem(720);
+        top: rem(208);
+        border-radius: 999px;
+        background: url('/images/md/Ellipse 84.png');
+      }
+    }
+
+    @media (max-width:768px){
+      
+      &_1 {
+        
+        width: rem(41);
+        height: rem(41);
+        left: rem(57);
+        top: rem(105);
+        border-radius:999px;
+        background: url('/images/sm/Ellipse 77.png');
+      }
+
+      // .circle__image_2
+
+      &_2 {
+        
+        width: rem(48);
+        height:rem(48);
+        left: rem(305);
+        top: rem(98);
+        border-radius: 999px;
+        background: url('/images/sm/Ellipse 78.png');
+      }
+
+      // .circle__image_3
+
+      &_3 {
+
+        
+        width: rem(73);
+        height: rem(73);
+        left: rem(-22);
+        top: rem(180);
+        border-radius: 100px;
+        background: url('/images/sm/Ellipse 79.png');
+      }
+
+      // .circle__image_4
+
+      &_4 {
+        
+        width: rem(43);
+        height: rem(43);
+        left: rem(310);
+        top: rem(178);
+        border-radius: 999px;
+        background: url('/images/sm/Ellipse 80.png');
+      }
+
+      // .circle__image_5
+
+      &_5 {
+        
+        width: rem(45);
+        height: rem(45);
+        left: rem(320);
+        top: rem(234);
+        border-radius: 1000px;
+
+        background: url('/images/sm/Ellipse 81.png');
+      }
+
+      // .circle__image_6
+
+      &_6 {
+        
+        width: rem(73);
+        height: rem(73);
+        left: rem(-24);
+        top: rem(72);
+        border-radius: 999px;
+        background: url('/images/sm/Ellipse 82.png');
+      }
+
+      // .circle__image_7
+
+      &_7 {
+        
+        width: rem(45);
+        height: rem(45);
+        left: rem(60);
+        top: rem(219);
+        border-radius: 999px;
+        background: url('/images/sm/Ellipse 83.png');
+      }
+
+      // .circle__image_8
+
+      &_8 {
+        
+        width: rem(38);
+        height: rem(38);
+        left: rem(340);
+        top: rem(140);
+        border-radius: 999px;
+        background: url('/images/sm/Ellipse 84.png');
       }
     }
 

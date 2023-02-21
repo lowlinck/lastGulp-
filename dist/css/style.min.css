@@ -162,6 +162,7 @@ html, body {
 }
 
 .header_container {
+  padding: 0 15px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -304,20 +305,21 @@ html, body {
 }
 .circle .circle__image_1 {
   position: absolute;
-  width: 8.064516129%;
-  height: 8.064516129%;
+  width: 7.8125rem;
+  height: 7.8125rem;
   left: 13.1875rem;
   top: 5.125rem;
-  background: url("/images/Ellipse/Ellipse_77.png");
+  border-radius: 999px;
+  background: url("/images/xl/Ellipse 77.png");
 }
 .circle .circle__image_2 {
   position: absolute;
-  width: 14.3225806452%;
-  height: 37%;
-  left: 73.625rem;
+  width: 13.875rem;
+  height: 13.875rem;
+  left: 70.625rem;
   top: 3.9375rem;
   border-radius: 999px;
-  background: url("/images/Ellipse/Ellipse 78.png");
+  background: url("/images/xl/Ellipse 78.png");
 }
 .circle .circle__image_3 {
   position: absolute;
@@ -326,25 +328,25 @@ html, body {
   left: -3.6875rem;
   top: 28.875rem;
   border-radius: 100px;
-  background: url("/images/Ellipse/Ellipse 79.png");
+  background: url("/images/xl/Ellipse 79.png");
 }
 .circle .circle__image_4 {
   position: absolute;
   width: 11.5rem;
   height: 11.5rem;
-  left: 72rem;
+  left: 68rem;
   top: 21.1875rem;
   border-radius: 999px;
-  background: url("/images/Ellipse/Ellipse 80.png");
+  background: url("/images/xl/Ellipse 80.png");
 }
 .circle .circle__image_5 {
   position: absolute;
   width: 13.875rem;
   height: 13.875rem;
-  left: 85.1875rem;
+  left: 80.1875rem;
   top: 29.375rem;
   border-radius: 1000px;
-  background: url("/images/Ellipse/Ellipse 81.png");
+  background: url("/images/xl/Ellipse 81.png");
 }
 .circle .circle__image_6 {
   position: absolute;
@@ -352,8 +354,8 @@ html, body {
   height: 13.875rem;
   left: -2.1875rem;
   top: 10.875rem;
-  border-radius: 1000px;
-  background: url("/images/Ellipse/Ellipse 82.webp");
+  border-radius: 999px;
+  background: url("/images/xl/Ellipse 82.png");
 }
 .circle .circle__image_7 {
   position: absolute;
@@ -361,52 +363,148 @@ html, body {
   height: 8.5rem;
   left: 12rem;
   top: 22.9375rem;
-  background: url("/images/Ellipse/Ellipse 83.png");
+  border-radius: 999px;
+  background: url("/images/xl/Ellipse 83.png");
 }
 .circle .circle__image_8 {
   position: absolute;
   width: 8.5rem;
   height: 8.5rem;
-  left: 90.4375rem;
+  left: 85.75rem;
   top: 15.5625rem;
   border-radius: 999px;
-  background: url("/images/Ellipse/Ellipse 84.png");
+  background: url("/images/xl/Ellipse 84.png");
 }
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
   .circle .circle__image_1 {
-    left: 13.4114583333%;
-    top: 2.5625rem;
     width: 4.5rem;
     height: 4.5rem;
+    left: 6.4375rem;
+    top: 2.5625rem;
+    border-radius: 999px;
+    background: url("/images/md/Ellipse 77.png");
   }
   .circle .circle__image_2 {
     width: 7.1875rem;
     height: 7.1875rem;
+    left: 39.5rem;
+    top: 5.875rem;
+    border-radius: 999px;
+    background: url("/images/md/Ellipse 78.png");
   }
   .circle .circle__image_3 {
     width: 8rem;
     height: 8rem;
+    left: -3.25rem;
+    top: 16.1875rem;
+    border-radius: 100px;
+    background: url("/images/md/Ellipse 79.png");
   }
   .circle .circle__image_4 {
     width: 7.0625rem;
     height: 7.0625rem;
+    left: 36.0625rem;
+    top: 15.1875rem;
+    border-radius: 999px;
+    background: url("/images/md/Ellipse 80.png");
   }
   .circle .circle__image_5 {
     width: 8.5rem;
     height: 8.5rem;
+    left: 41.625rem;
+    top: 21.4375rem;
+    border-radius: 1000px;
+    background: url("/images/md/Ellipse 81.png");
   }
   .circle .circle__image_6 {
     width: 7.9375rem;
     height: 7.9375rem;
+    left: -2.375rem;
+    top: 5.875rem;
     border-radius: 999px;
+    background: url("/images/md/Ellipse 82.png");
   }
   .circle .circle__image_7 {
     width: 4.875rem;
     height: 4.875rem;
+    left: 5.75rem;
+    top: 12.8125rem;
+    border-radius: 999px;
+    background: url("/images/md/Ellipse 83.png");
   }
   .circle .circle__image_8 {
     width: 5.25rem;
     height: 5.25rem;
+    left: 45rem;
+    top: 13rem;
+    border-radius: 999px;
+    background: url("/images/md/Ellipse 84.png");
+  }
+}
+@media (max-width: 768px) {
+  .circle .circle__image_1 {
+    width: 2.5625rem;
+    height: 2.5625rem;
+    left: 3.5625rem;
+    top: 6.5625rem;
+    border-radius: 999px;
+    background: url("/images/sm/Ellipse 77.png");
+  }
+  .circle .circle__image_2 {
+    width: 3rem;
+    height: 3rem;
+    left: 19.0625rem;
+    top: 6.125rem;
+    border-radius: 999px;
+    background: url("/images/sm/Ellipse 78.png");
+  }
+  .circle .circle__image_3 {
+    width: 4.5625rem;
+    height: 4.5625rem;
+    left: -1.375rem;
+    top: 11.25rem;
+    border-radius: 100px;
+    background: url("/images/sm/Ellipse 79.png");
+  }
+  .circle .circle__image_4 {
+    width: 2.6875rem;
+    height: 2.6875rem;
+    left: 19.375rem;
+    top: 11.125rem;
+    border-radius: 999px;
+    background: url("/images/sm/Ellipse 80.png");
+  }
+  .circle .circle__image_5 {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    left: 20rem;
+    top: 14.625rem;
+    border-radius: 1000px;
+    background: url("/images/sm/Ellipse 81.png");
+  }
+  .circle .circle__image_6 {
+    width: 4.5625rem;
+    height: 4.5625rem;
+    left: -1.5rem;
+    top: 4.5rem;
+    border-radius: 999px;
+    background: url("/images/sm/Ellipse 82.png");
+  }
+  .circle .circle__image_7 {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    left: 3.75rem;
+    top: 13.6875rem;
+    border-radius: 999px;
+    background: url("/images/sm/Ellipse 83.png");
+  }
+  .circle .circle__image_8 {
+    width: 2.375rem;
+    height: 2.375rem;
+    left: 21.25rem;
+    top: 8.75rem;
+    border-radius: 999px;
+    background: url("/images/sm/Ellipse 84.png");
   }
 }
 
@@ -422,6 +520,14 @@ html, body {
   font-size: 86px;
   line-height: 105px;
   text-align: center;
+}
+@media (max-width: 1440px) {
+  .main_title {
+    left: 128px;
+    top: 148px;
+    font-size: 32px;
+    text-align: center;
+  }
 }
 
 .SecondPartTitle {
@@ -536,6 +642,10 @@ html, body {
   .link_left {
     self-content: center;
     padding-left: 0px;
+  }
+  .link_icon {
+    width: 4.5rem;
+    height: 4.5rem;
   }
 }
 @media (max-width: 1440px) {

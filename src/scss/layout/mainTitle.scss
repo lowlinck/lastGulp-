@@ -14,6 +14,15 @@
         line-height: 105px;
         text-align: center;
     }
+
+    @media (max-width:1440px){
+        &_title {
+        left: 128px;
+        top: 148px;
+        font-size: 32px;
+        text-align: center;
+    }
+    }
 }
 
 .firstPartTitle {}
