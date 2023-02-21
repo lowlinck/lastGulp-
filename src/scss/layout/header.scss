@@ -1,5 +1,9 @@
 // =====================================================================================================================
 
+html, body{
+  max-width: $maxWidth;
+  margin: 0 auto;
+}
 .header {
   max-width: $maxWidth;
   margin: 0 auto;
@@ -108,25 +112,60 @@
   }
   @media(max-width: 1440px){
     &__item1 {
+      top: rem(-114.73);
       width: rem(230.45);
       height: rem(230.45);
     }
 
     &__item2 {
+      top: rem(-191.55);
       width: rem(384.09);
       height: rem(384.09);
     }
     &__item3 {
+      top: rem(-268.36);
       width: rem(537.73);
       height: rem(537.73);
     }
     &__item4 {
+      top: rem(-345.18);
       width: rem(691.36);
       height: rem(691.36);
     }
     &__item5 {
+      top: rem(-422);
       width: rem(845);
       height: rem(845);
+    }
+
+  }
+
+   @media(max-width: 768px){
+    &__item1 {
+      top: rem(-14.18);
+      width: rem(142.36);
+      height: rem(142.36);
+    }
+
+    &__item2 {
+      top: rem(-61.64);
+      width: rem(237.27);
+      height: rem(237.27);
+    }
+    &__item3 {
+      top: rem(-109.09);
+      width: rem(332.18);
+      height: rem(332.18);
+    }
+    &__item4 {
+      top: rem(-156.55);
+      width: rem(427.09);
+      height: rem(427.09);
+    }
+    &__item5 {
+      top: rem(-204);
+      width: rem(522);
+      height: rem(522);
     }
 
   }
@@ -145,9 +184,9 @@
 
       &_1 {
         position: absolute;
-        width: rem(125);
-        height: rem(125);
-        left: prc(211, 1550);
+        width: prc(125, 1550);
+        height: prc(125, 1550);
+        left: rem(211);
         top: rem(82);
         background: url('/images/Ellipse/Ellipse_77.png');
       }
@@ -156,9 +195,9 @@
 
       &_2 {
         position: absolute;
-        width: rem(222);
-        height: rem(222);
-        left: prc(1178, 1550);
+        width: prc(222,1550);
+        height:prc(222,600);
+        left: rem(1178);
         top: rem(63);
         border-radius: 999px;
         background: url('/images/Ellipse/Ellipse 78.png');
@@ -171,7 +210,7 @@
         position: absolute;
         width: rem(222);
         height: rem(222);
-        left: prc(-59, 1550);
+        left: rem(-59);
         top: rem(462);
         border-radius: 100px;
         background: url('/images/Ellipse/Ellipse 79.png');
@@ -183,7 +222,7 @@
         position: absolute;
         width: rem(184);
         height: rem(184);
-        left: prc(1152, 1550);
+        left: rem(1152);
         top: rem(339);
         border-radius: 999px;
         background: url('/images/Ellipse/Ellipse 80.png');
@@ -195,7 +234,7 @@
         position: absolute;
         width: rem(222);
         height: rem(222);
-        left: prc(1363, 1550);
+        left: rem(1363);
         top: rem(470);
         border-radius: 1000px;
 
@@ -208,9 +247,11 @@
         position: absolute;
         width: rem(222);
         height: rem(222);
-        left: prc(-35, 1550);
+        left: rem(-35);
         top: rem(174);
-        background: url('/images/Ellipse/Ellipse 82.png');
+        border-radius: 1000px;
+
+        background: url('/images/Ellipse/Ellipse 82.webp');
       }
 
       // .circle__image_7
@@ -219,7 +260,7 @@
         position: absolute;
         width: rem(136);
         height: rem(136);
-        left: prc(192, 1550);
+        left: rem(192);
         top: rem(367);
         background: url('/images/Ellipse/Ellipse 83.png');
       }
@@ -230,61 +271,57 @@
         position: absolute;
         width: rem(136);
         height: rem(136);
-        left: prc(1447, 1550);
+        left: rem(1447);
         top: rem(249);
         border-radius: 999px;
         background: url('/images/Ellipse/Ellipse 84.png');
       }
+       
+     @media (max-width:768px){
+      
+      &_1 {
+        left: prc(103, 768);
+        top: rem(41);
+        width: rem(72);
+        height: rem(72);
+      } 
+      &_2 {
+        width: rem(115);
+        height: rem(115);
+      }
+      &_3 {
+        width: rem(128);
+        height: rem(128);
+      }
+      &_4 {
+        width: rem(113);
+        height: rem(113);
+      }
+      &_5 {
+        width: rem(136);
+        height: rem(136);
+      }
+      &_6 {
+        width: rem(127);
+        height: rem(127);
+        border-radius: 999px;
+      }
+      &_7 {
+        width: rem(78);
+        height: rem(78);
+      }
+      &_8 {
+        width: rem(84);
+        height: rem(84);
+      }
+    }
+
     }
   }
 }
 
 // =====================================================================================================================
 
-// Burger
-/*
-.icon-menu {
-  display: none;
-  @include media(767) {
-    display: block;
-    position: relative;
-    width: rem(30);
-    height: rem(18);
-    cursor: pointer;
-    z-index: 5;
-    span,
-    &::before,
-    &::after {
-      content: "";
-      transition: all 300ms ease 0ms;
-      right: 0;
-      position: absolute;
-      width: 100%;
-      height: rem(2);
-      background-color: #000;
-    }
-    &::before {
-      top: 0;
-    }
-    &::after {
-      bottom: 0;
-    }
-    span {
-      top: calc(50% - rem(1));
-    }
-    .menu-open & {
-      span {
-        width: 0;
-      }
-      &::before {
-        top: calc(50% - rem(1));
-        transform: rotate(-45deg);
-      }
-      &::after {
-        bottom: calc(50% - rem(1));
-        transform: rotate(45deg);
-      }
-    }
-  }
-}
-*/
+// Burgersdgfs
+
+

@@ -1,5 +1,5 @@
 import toggleBodyLock from './../helpers/toggleBodyLock'
-import { html, firstScreen, header, burgerButton } from './../helpers/elementsNodeList'
+import { html, firstScreen, header, burgerButton, menuList } from './../helpers/elementsNodeList'
 
 // logger (Full Logging System) =================================================================================================================
 function FLS(message) {
@@ -115,7 +115,9 @@ const menuInit = () => {
   if (burgerButton) {
     document.addEventListener('click', ({ target }) => {
       if (target.closest('.icon-menu')) {
-        html.classList.toggle('menu-open')
+        html.classList.toggle('menu-open');
+        menuList.classList.toggle('active');
+       
         toggleBodyLock(html.classList.contains('menu-open'))
       }
     })
