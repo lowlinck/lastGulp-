@@ -28,7 +28,6 @@ html, body{
   margin: 0 auto;
   height: 100%;
   width: 100%;
-
   position: relative;
   color: $mainColor;
 
@@ -315,11 +314,15 @@ html, body{
        
      @media (max-width:1440px){
       
+      &__image {
+        margin: 0 auto;
+      }
+
       &_1 {
         
         width: rem(72);
         height: rem(72);
-        left: prc(103, 1440);
+        left: md(230);
         top: rem(41);
         border-radius:999px;
         background: url('/images/md/Ellipse 77.png');
@@ -331,7 +334,7 @@ html, body{
         
         width: rem(115);
         height:rem(115);
-        left: prc(632, 1440);
+        left: md(710);
         top: rem(94);
         border-radius: 999px;
         background: url('/images/md/Ellipse 78.png');
@@ -344,7 +347,7 @@ html, body{
         
         width: rem(128);
         height: rem(128);
-        left: rem(-52);
+        left: md(120);
         top: rem(259);
         border-radius: 100px;
         background: url('/images/md/Ellipse 79.png');
@@ -356,7 +359,7 @@ html, body{
         
         width: rem(113);
         height: rem(113);
-        left: rem(577);
+        left: md(640);
         top: rem(243);
         border-radius: 999px;
         background: url('/images/md/Ellipse 80.png');
@@ -368,8 +371,8 @@ html, body{
         
         width: rem(136);
         height: rem(136);
-        left: rem(666);
-        top: rem(343);
+        left: md(720);
+        top: rem(355);
         border-radius: 1000px;
 
         background: url('/images/md/Ellipse 81.png');
@@ -381,7 +384,7 @@ html, body{
         
         width: rem(127);
         height: rem(127);
-        left: rem(-38);
+        left: md(120);
         top: rem(94);
         border-radius: 999px;
         background: url('/images/md/Ellipse 82.png');
@@ -393,7 +396,7 @@ html, body{
         
         width: rem(78);
         height: rem(78);
-        left: rem(92);
+        left: md(240);
         top: rem(205);
         border-radius: 999px;
         background: url('/images/md/Ellipse 83.png');
@@ -405,7 +408,7 @@ html, body{
         
         width: rem(84);
         height: rem(84);
-        left: rem(720);
+        left: md(790);
         top: rem(208);
         border-radius: 999px;
         background: url('/images/md/Ellipse 84.png');
@@ -413,12 +416,16 @@ html, body{
     }
 
     @media (max-width:768px){
+
+      
+       min-width: 375px;
+      
       
       &_1 {
         
         width: rem(41);
         height: rem(41);
-        left: rem(57);
+        left: sm(57);
         top: rem(105);
         border-radius:999px;
         background: url('/images/sm/Ellipse 77.png');
@@ -430,7 +437,7 @@ html, body{
         
         width: rem(48);
         height:rem(48);
-        left: rem(305);
+        left: sm(305);
         top: rem(98);
         border-radius: 999px;
         background: url('/images/sm/Ellipse 78.png');
@@ -443,7 +450,7 @@ html, body{
         
         width: rem(73);
         height: rem(73);
-        left: rem(-22);
+        left: sm(-22);
         top: rem(180);
         border-radius: 100px;
         background: url('/images/sm/Ellipse 79.png');
@@ -455,7 +462,7 @@ html, body{
         
         width: rem(43);
         height: rem(43);
-        left: rem(310);
+        left: sm(310);
         top: rem(178);
         border-radius: 999px;
         background: url('/images/sm/Ellipse 80.png');
@@ -467,7 +474,7 @@ html, body{
         
         width: rem(45);
         height: rem(45);
-        left: rem(320);
+        left: sm(320);
         top: rem(234);
         border-radius: 1000px;
 
@@ -480,7 +487,7 @@ html, body{
         
         width: rem(73);
         height: rem(73);
-        left: rem(-24);
+        left: sm(-24);
         top: rem(72);
         border-radius: 999px;
         background: url('/images/sm/Ellipse 82.png');
@@ -492,7 +499,7 @@ html, body{
         
         width: rem(45);
         height: rem(45);
-        left: rem(60);
+        left: sm(60);
         top: rem(219);
         border-radius: 999px;
         background: url('/images/sm/Ellipse 83.png');
@@ -504,7 +511,7 @@ html, body{
         
         width: rem(38);
         height: rem(38);
-        left: rem(340);
+        left: sm(340);
         top: rem(140);
         border-radius: 999px;
         background: url('/images/sm/Ellipse 84.png');

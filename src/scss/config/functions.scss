@@ -27,6 +27,11 @@
   @return $result;
 }
 
+// !TO sm:
+@function sm($pxOne ) {
+  $result: math.div($pxOne,$smWidthContainer) * 100 + vw;
+  @return $result;
+}
 
 
 

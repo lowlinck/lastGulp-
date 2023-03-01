@@ -1,0 +1,39 @@
+.section1_content {}
+
+.hotTitle {
+    position: relative;
+
+}
+
+.hotTitle__titleText {
+    margin-left: prc(130, 1440);
+    font-family: $mainFont;
+    font-style: normal;
+    font-weight: $boldWeight;
+    font-size: 52px;
+    line-height: 63px;
+    color: $mainColor;
+
+}
+
+.hotTitle__titleImage {
+    position: absolute;
+    width: prc(68,1440);
+    height: 68px;
+    left: prc(320, 1440);
+    top: -19px;
+}
+
+.slider_content {
+
+}
+
+.slider_image {
+
+}
+
+.slider_image img {
+    width: 280px;
+    height: 335px;
+
+}

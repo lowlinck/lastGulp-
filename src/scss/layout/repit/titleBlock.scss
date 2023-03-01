@@ -1,0 +1,22 @@
+.title__block {
+    position: relative;
+}
+
+.title__block span {
+    margin-bottom: 40px;
+    position: absolute;
+    width: prc(1180, 1440);
+    left: prc(130, 1440);
+    height: rem(2);
+    background-color: #000;
+}
+
+.title__text {
+    margin-left: prc(130, 1440);
+    margin-bottom: 15px;
+    font-family: $mainFont;
+    font-style: normal;
+    font-weight: $boldWeight;
+    font-size: 52px;
+    line-height: 63px;
+}

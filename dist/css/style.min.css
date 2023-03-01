@@ -406,10 +406,13 @@ html, body {
   background: url("/images/xl/Ellipse 84.png");
 }
 @media (max-width: 1440px) {
+  .circle .circle__image__image {
+    margin: 0 auto;
+  }
   .circle .circle__image_1 {
     width: 4.5rem;
     height: 4.5rem;
-    left: 7.1527777778%;
+    left: 23vw;
     top: 2.5625rem;
     border-radius: 999px;
     background: url("/images/md/Ellipse 77.png");
@@ -417,7 +420,7 @@ html, body {
   .circle .circle__image_2 {
     width: 7.1875rem;
     height: 7.1875rem;
-    left: 43.8888888889%;
+    left: 71vw;
     top: 5.875rem;
     border-radius: 999px;
     background: url("/images/md/Ellipse 78.png");
@@ -425,7 +428,7 @@ html, body {
   .circle .circle__image_3 {
     width: 8rem;
     height: 8rem;
-    left: -3.25rem;
+    left: 12vw;
     top: 16.1875rem;
     border-radius: 100px;
     background: url("/images/md/Ellipse 79.png");
@@ -433,7 +436,7 @@ html, body {
   .circle .circle__image_4 {
     width: 7.0625rem;
     height: 7.0625rem;
-    left: 36.0625rem;
+    left: 64vw;
     top: 15.1875rem;
     border-radius: 999px;
     background: url("/images/md/Ellipse 80.png");
@@ -441,15 +444,15 @@ html, body {
   .circle .circle__image_5 {
     width: 8.5rem;
     height: 8.5rem;
-    left: 41.625rem;
-    top: 21.4375rem;
+    left: 72vw;
+    top: 22.1875rem;
     border-radius: 1000px;
     background: url("/images/md/Ellipse 81.png");
   }
   .circle .circle__image_6 {
     width: 7.9375rem;
     height: 7.9375rem;
-    left: -2.375rem;
+    left: 12vw;
     top: 5.875rem;
     border-radius: 999px;
     background: url("/images/md/Ellipse 82.png");
@@ -457,7 +460,7 @@ html, body {
   .circle .circle__image_7 {
     width: 4.875rem;
     height: 4.875rem;
-    left: 5.75rem;
+    left: 24vw;
     top: 12.8125rem;
     border-radius: 999px;
     background: url("/images/md/Ellipse 83.png");
@@ -465,17 +468,20 @@ html, body {
   .circle .circle__image_8 {
     width: 5.25rem;
     height: 5.25rem;
-    left: 45rem;
+    left: 79vw;
     top: 13rem;
     border-radius: 999px;
     background: url("/images/md/Ellipse 84.png");
   }
 }
 @media (max-width: 768px) {
+  .circle .circle__image {
+    min-width: 375px;
+  }
   .circle .circle__image_1 {
     width: 2.5625rem;
     height: 2.5625rem;
-    left: 3.5625rem;
+    left: 15.2vw;
     top: 6.5625rem;
     border-radius: 999px;
     background: url("/images/sm/Ellipse 77.png");
@@ -483,7 +489,7 @@ html, body {
   .circle .circle__image_2 {
     width: 3rem;
     height: 3rem;
-    left: 19.0625rem;
+    left: 81.3333333333vw;
     top: 6.125rem;
     border-radius: 999px;
     background: url("/images/sm/Ellipse 78.png");
@@ -491,7 +497,7 @@ html, body {
   .circle .circle__image_3 {
     width: 4.5625rem;
     height: 4.5625rem;
-    left: -1.375rem;
+    left: -5.8666666667vw;
     top: 11.25rem;
     border-radius: 100px;
     background: url("/images/sm/Ellipse 79.png");
@@ -499,7 +505,7 @@ html, body {
   .circle .circle__image_4 {
     width: 2.6875rem;
     height: 2.6875rem;
-    left: 19.375rem;
+    left: 82.6666666667vw;
     top: 11.125rem;
     border-radius: 999px;
     background: url("/images/sm/Ellipse 80.png");
@@ -507,7 +513,7 @@ html, body {
   .circle .circle__image_5 {
     width: 2.8125rem;
     height: 2.8125rem;
-    left: 20rem;
+    left: 85.3333333333vw;
     top: 14.625rem;
     border-radius: 1000px;
     background: url("/images/sm/Ellipse 81.png");
@@ -515,7 +521,7 @@ html, body {
   .circle .circle__image_6 {
     width: 4.5625rem;
     height: 4.5625rem;
-    left: -1.5rem;
+    left: -6.4vw;
     top: 4.5rem;
     border-radius: 999px;
     background: url("/images/sm/Ellipse 82.png");
@@ -523,7 +529,7 @@ html, body {
   .circle .circle__image_7 {
     width: 2.8125rem;
     height: 2.8125rem;
-    left: 3.75rem;
+    left: 16vw;
     top: 13.6875rem;
     border-radius: 999px;
     background: url("/images/sm/Ellipse 83.png");
@@ -531,7 +537,7 @@ html, body {
   .circle .circle__image_8 {
     width: 2.375rem;
     height: 2.375rem;
-    left: 21.25rem;
+    left: 90.6666666667vw;
     top: 8.75rem;
     border-radius: 999px;
     background: url("/images/sm/Ellipse 84.png");
@@ -547,16 +553,23 @@ html, body {
   font-family: "Vendor";
   font-style: normal;
   font-weight: 700;
-  font-size: 4.5vw;
+  font-size: 86px;
   line-height: 105px;
   text-align: center;
 }
 @media (max-width: 1440px) {
   .main_title {
-    left: 128px;
+    position: absolute;
+    width: 513px;
+    height: 78px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 148px;
     font-size: 32px;
-    text-align: center;
+    line-height: 38.89px;
+  }
+  .main .SecondPartTitle {
+    display: block;
   }
 }
 
