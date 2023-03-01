@@ -41,8 +41,8 @@ html, body{
     transform: translateX(-50%);
     top: rem(-83);
     margin: 0 auto;
-    width: rem(300);
-    height: rem(300);
+    width:300px;
+    height: 300px;
     border: 1px solid $mainColor;
     border-radius: 50%;
     box-sizing: border-box;
@@ -57,8 +57,8 @@ html, body{
     top: rem(-183);
     opacity: 0.8;
     margin: 0 auto;
-    width: rem(500);
-    height: rem(500);
+    width: 500px;
+    height: 500px;
     border: 1px solid $mainColor;
     border-radius: 50%;
     box-sizing: border-box;
@@ -73,8 +73,8 @@ html, body{
     top: rem(-283);
     opacity: 0.6;
     margin: 0 auto;
-    width: rem(700);
-    height: rem(700);
+    width: 700px;
+    height: 700px;
     border: 1px solid $mainColor;
     border-radius: 50%;
     box-sizing: border-box;
@@ -89,8 +89,8 @@ html, body{
     top: rem(-383);
     opacity: 0.4;
     margin: 0 auto;
-    width: rem(900);
-    height: rem(900);
+    width: 900px;
+    height: 900px;
     border: 1px solid $mainColor;
     border-radius: 50%;
     box-sizing: border-box;
@@ -105,8 +105,8 @@ html, body{
     top: rem(-483);
     margin: 0 auto;
     opacity: 0.2;
-    width: rem(1100);
-    height: rem(1100);
+    width: 1100px;
+    height: 1100px;
     border: 1px solid $mainColor;
     border-radius: 50%;
     box-sizing: border-box;
@@ -114,34 +114,68 @@ html, body{
   @media(max-width: 1440px){
     &__item1 {
       top: rem(-114.73);
-      width: rem(230.45);
-      height: rem(230.45);
+      width: vw(300);
+      height: vw(300);
     }
 
     &__item2 {
       top: rem(-191.55);
-      width: rem(384.09);
-      height: rem(384.09);
+      width: vw(500);
+      height: vw(500);
     }
     &__item3 {
       top: rem(-268.36);
-      width: rem(537.73);
-      height: rem(537.73);
+      width: vw(700);
+      height: vw(700);
     }
     &__item4 {
       top: rem(-345.18);
-      width: rem(691.36);
-      height: rem(691.36);
+      width: vw(900);
+      height: vw(900);
     }
     &__item5 {
       top: rem(-422);
-      width: rem(845);
-      height: rem(845);
+      width: vw(1100);
+      height: vw(1100);
     }
 
   }
 
+  @media(max-width: 1040px){
+    &__item1 {
+      top: rem(-114.73);
+      width: md(230);
+      height: md(230);
+    }
+
+    &__item2 {
+      top: rem(-191.55);
+      width: md(384);
+      height: md(384);
+    }
+    &__item3 {
+      top: rem(-268.36);
+      width: md(537);
+      height: md(537);
+    }
+    &__item4 {
+      top: rem(-345.18);
+      width: md(691);
+      height: md(691);
+    }
+    &__item5 {
+      top: rem(-422);
+      width: md(845);
+      height: md(845);
+    }
+
+  }
+
+
    @media(max-width: 768px){
+    .circle{
+      min-width: 375px;
+    }
     &__item1 {
       top: rem(-14.18);
       width: rem(142.36);
@@ -285,7 +319,7 @@ html, body{
         
         width: rem(72);
         height: rem(72);
-        left: rem(103);
+        left: prc(103, 1440);
         top: rem(41);
         border-radius:999px;
         background: url('/images/md/Ellipse 77.png');
@@ -297,7 +331,7 @@ html, body{
         
         width: rem(115);
         height:rem(115);
-        left: rem(632);
+        left: prc(632, 1440);
         top: rem(94);
         border-radius: 999px;
         background: url('/images/md/Ellipse 78.png');

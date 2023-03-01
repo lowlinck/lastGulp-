@@ -184,8 +184,8 @@ html, body {
   transform: translateX(-50%);
   top: -5.1875rem;
   margin: 0 auto;
-  width: 18.75rem;
-  height: 18.75rem;
+  width: 300px;
+  height: 300px;
   border: 1px solid #ECB02F;
   border-radius: 50%;
   box-sizing: border-box;
@@ -197,8 +197,8 @@ html, body {
   top: -11.4375rem;
   opacity: 0.8;
   margin: 0 auto;
-  width: 31.25rem;
-  height: 31.25rem;
+  width: 500px;
+  height: 500px;
   border: 1px solid #ECB02F;
   border-radius: 50%;
   box-sizing: border-box;
@@ -210,8 +210,8 @@ html, body {
   top: -17.6875rem;
   opacity: 0.6;
   margin: 0 auto;
-  width: 43.75rem;
-  height: 43.75rem;
+  width: 700px;
+  height: 700px;
   border: 1px solid #ECB02F;
   border-radius: 50%;
   box-sizing: border-box;
@@ -223,8 +223,8 @@ html, body {
   top: -23.9375rem;
   opacity: 0.4;
   margin: 0 auto;
-  width: 56.25rem;
-  height: 56.25rem;
+  width: 900px;
+  height: 900px;
   border: 1px solid #ECB02F;
   border-radius: 50%;
   box-sizing: border-box;
@@ -236,8 +236,8 @@ html, body {
   top: -30.1875rem;
   margin: 0 auto;
   opacity: 0.2;
-  width: 68.75rem;
-  height: 68.75rem;
+  width: 1100px;
+  height: 1100px;
   border: 1px solid #ECB02F;
   border-radius: 50%;
   box-sizing: border-box;
@@ -245,31 +245,61 @@ html, body {
 @media (max-width: 1440px) {
   .circle__item1 {
     top: -7.170625rem;
-    width: 14.403125rem;
-    height: 14.403125rem;
+    width: 20.8333333333vw;
+    height: 20.8333333333vw;
   }
   .circle__item2 {
     top: -11.971875rem;
-    width: 24.005625rem;
-    height: 24.005625rem;
+    width: 34.7222222222vw;
+    height: 34.7222222222vw;
   }
   .circle__item3 {
     top: -16.7725rem;
-    width: 33.608125rem;
-    height: 33.608125rem;
+    width: 48.6111111111vw;
+    height: 48.6111111111vw;
   }
   .circle__item4 {
     top: -21.57375rem;
-    width: 43.21rem;
-    height: 43.21rem;
+    width: 62.5vw;
+    height: 62.5vw;
   }
   .circle__item5 {
     top: -26.375rem;
-    width: 52.8125rem;
-    height: 52.8125rem;
+    width: 76.3888888889vw;
+    height: 76.3888888889vw;
+  }
+}
+@media (max-width: 1040px) {
+  .circle__item1 {
+    top: -7.170625rem;
+    width: 23vw;
+    height: 23vw;
+  }
+  .circle__item2 {
+    top: -11.971875rem;
+    width: 38.4vw;
+    height: 38.4vw;
+  }
+  .circle__item3 {
+    top: -16.7725rem;
+    width: 53.7vw;
+    height: 53.7vw;
+  }
+  .circle__item4 {
+    top: -21.57375rem;
+    width: 69.1vw;
+    height: 69.1vw;
+  }
+  .circle__item5 {
+    top: -26.375rem;
+    width: 84.5vw;
+    height: 84.5vw;
   }
 }
 @media (max-width: 768px) {
+  .circle .circle {
+    min-width: 375px;
+  }
   .circle__item1 {
     top: -0.88625rem;
     width: 8.8975rem;
@@ -379,7 +409,7 @@ html, body {
   .circle .circle__image_1 {
     width: 4.5rem;
     height: 4.5rem;
-    left: 6.4375rem;
+    left: 7.1527777778%;
     top: 2.5625rem;
     border-radius: 999px;
     background: url("/images/md/Ellipse 77.png");
@@ -387,7 +417,7 @@ html, body {
   .circle .circle__image_2 {
     width: 7.1875rem;
     height: 7.1875rem;
-    left: 39.5rem;
+    left: 43.8888888889%;
     top: 5.875rem;
     border-radius: 999px;
     background: url("/images/md/Ellipse 78.png");
@@ -517,7 +547,7 @@ html, body {
   font-family: "Vendor";
   font-style: normal;
   font-weight: 700;
-  font-size: 86px;
+  font-size: 4.5vw;
   line-height: 105px;
   text-align: center;
 }

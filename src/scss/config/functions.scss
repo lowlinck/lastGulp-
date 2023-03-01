@@ -15,3 +15,18 @@
   $result: math.div($px, 16) + em;
   @return $result;
 }
+// !TO vw:
+@function vw($pxOne ) {
+  $result: math.div($pxOne,$maxWidthContainer) * 100 + vw;
+  @return $result;
+}
+
+// !TO md:
+@function md($pxOne ) {
+  $result: math.div($pxOne,$mdWidthContainer) * 100 + vw;
+  @return $result;
+}
+
+
+
+
