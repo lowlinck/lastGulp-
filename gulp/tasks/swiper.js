@@ -1,7 +1,2 @@
-import Swiper from 'swiper';
+import swiper from 'swiper-bundle';
 
-const swiper = new Swiper('.swiper-container', {
- 
-});
-
-export default swiper;

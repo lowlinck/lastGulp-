@@ -1,14 +1,17 @@
 .title__block {
     position: relative;
+    margin-bottom: 40px;
+   
 }
 
 .title__block span {
-    margin-bottom: 40px;
+    
     position: absolute;
-    width: prc(1180, 1440);
+    width: prc(1190, 1440);
     left: prc(130, 1440);
     height: rem(2);
     background-color: #000;
+    margin-bottom: 40px ;
 }
 
 .title__text {
@@ -19,4 +22,16 @@
     font-weight: $boldWeight;
     font-size: 52px;
     line-height: 63px;
+}
+
+
+.title__text-popular{
+    margin-top: 90px;
+    margin-left: prc(130, 1440);
+    margin-bottom: 15px;
+    font-family: $mainFont;
+    font-style: normal;
+    font-weight: $boldWeight;
+    font-size: 20px;
+    line-height: 24px;
 }

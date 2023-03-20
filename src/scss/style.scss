@@ -3,6 +3,7 @@
 // Подключение шрифтов локально из папки "./src/fonts" =======================================================================================================================
 @import 'config/fonts';
 
+
 // Подключение sass функций и миксинов и рассширений стилей =======================================================================================================================
 @import 'config/functions';
 @import 'config/mixins';
@@ -11,6 +12,7 @@
 @import url(https://fonts.googleapis.com/css?family=Vibur:regular&display=swap);
 // Подключение переменных =======================================================================================================================
 @import 'config/vars';
+@import 'config/base';
 
 // Обнуление =======================================================================================================================
 @import 'config/reset';
@@ -22,7 +24,7 @@
 * раскомментировать для использования 
 */
 // @import 'libs/aos';
-// @import 'libs/swiper';
+ //@import 'libs/swiper';
 
 // Подлючение кастомного скрола для всего сайта =======================================================================================================================
 @import 'config/scrollbar';
@@ -32,12 +34,18 @@
 
 // БЕМ блоки используемые во всё проекте =======================================================================================================================
 @import 'config/common';
-
+@import '../../node_modules/swiper/swiper-bundle';
 // Подключение стилей отдельных блоков и секций =======================================================================================================================
 @import 'layout/header';
 @import 'layout/mainTitle';
+@import 'layout/repit/titleBlock';
 @import 'layout/menu';
 @import 'layout/formHeader';
+@import'layout/section/sectionOne';
+@import'layout/section/sectionTwo';
+@import'layout/section/sectionCuisine';
+@import'layout/section/sectionBlog';
+@import'layout/section/sectionSearch';
 
 
 @import 'layout/footer';

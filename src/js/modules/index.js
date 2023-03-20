@@ -1,5 +1,6 @@
 import toggleBodyLock from './../helpers/toggleBodyLock'
 import { html, firstScreen, header, burgerButton, menuList } from './../helpers/elementsNodeList'
+import Swiper from 'swiper'
 
 // logger (Full Logging System) =================================================================================================================
 function FLS(message) {
@@ -131,8 +132,34 @@ const menuClose = () => {
   toggleBodyLock(false)
   html.classList.remove('menu-open')
 }
+ // Настройки swiper
+const swiper = new Swiper('.swiper-container', {
+  direction: 'horizontal',
+  loop: true,
+  speed: 500,
+  slidesPerView: 4,  
+  spaceBetween: 0,
+  breakpoints:{
+    375:{
+      slidesPerView: 2,  
+    },
+    768:{
+      slidesPerView: 4,  
+    },
+    1440:{
+      slidesPerView: 4,  
+    }
+    },
+ 
+ 
+  Navigation: {
+    nextEl: ".button-next",
+    prevEl: ".button-prev",
+  },
+});
 
 export {
+  
   FLS,
   isWebp,
   isMobile,
@@ -145,4 +172,5 @@ export {
   menuInit,
   menuOpen,
   menuClose,
+  swiper,
 }

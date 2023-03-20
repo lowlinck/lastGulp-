@@ -6,8 +6,9 @@ $smWidthContainer: 375; // ширина контейнера с учетом pad
 $containerWidth: 1440; // ширина контейнера из макета
 
 $mainOffset: 15; // отступы безопасности для контейнера
-$mainFont: 'Vendor'; // !указать здесь основное семейство шрифта
+$mainFont: 'Verdana'; // !указать здесь основное семейство шрифта
 $mainWeight: 400; // !указать здесь основное начертание шрифта
+$overWeight: 700; // !указать здесь основное начертание шрифта
 
 $headerHeight: 100;
 $footerHeight: 100;
@@ -17,13 +18,14 @@ $mdheight: 813;
 $xlheight:734;
 
 $mainRadius: rem(10);
-
+$boldWeight:700;
 $headerColor:#F5F5F5;
 $whiteColor: #fff;
 $blackColor: #231C1A;
 $grayColor: #F4F3EE;
 $redColor: #ff4040;
 $mainColor:#ECB02F;
+$sectionColor:#F4F3EE;
 
 $firstAccentColor: $blackColor;
 $secondAccentColor: $redColor;

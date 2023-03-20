@@ -8,6 +8,7 @@
 */
 import {
   isWebp,
+  swiper,
   headerFixed,
   togglePopupWindows,
   addTouchClass,
